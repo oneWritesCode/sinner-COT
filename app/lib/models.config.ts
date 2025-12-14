@@ -2,30 +2,30 @@
 export const AVAILABLE_MODELS_CONFIG = {
   // OpenAI models (Generally the most expensive tier)
   // GPT-4 class models are premium-priced. Mini is the cheapest.
-  "openai-gpt-4o": {
-    id: 1,
-    provider: "openai",
-    model: "gpt-4o", // High cost, high quality
-    available: true,
-  },
-  "openai-gpt-4o-mini": {
-    id: 2,
-    provider: "openai",
-    model: "gpt-4o-mini", // Cheapest OpenAI option, very cost-efficient
-    available: true,
-  },
-  "openai-gpt-4-turbo": {
-    id: 3,
-    provider: "openai",
-    model: "gpt-4-turbo", // Medium-high cost, older 4-tier model
-    available: true,
-  },
-  "openai-gpt-3.5-turbo": {
-    id: 4,
-    provider: "openai",
-    model: "gpt-3.5-turbo", // Very cheap, but legacy and weaker
-    available: true,
-  },
+  // "openai-gpt-4o": {
+  //   id: 1,
+  //   provider: "openai",
+  //   model: "gpt-4o", // High cost, high quality
+  //   available: true,
+  // },
+  // "openai-gpt-4o-mini": {
+  //   id: 2,
+  //   provider: "openai",
+  //   model: "gpt-4o-mini", // Cheapest OpenAI option, very cost-efficient
+  //   available: true,
+  // },
+  // "openai-gpt-4-turbo": {
+  //   id: 3,
+  //   provider: "openai",
+  //   model: "gpt-4-turbo", // Medium-high cost, older 4-tier model
+  //   available: true,
+  // },
+  // "openai-gpt-3.5-turbo": {
+  //   id: 4,
+  //   provider: "openai",
+  //   model: "gpt-3.5-turbo", // Very cheap, but legacy and weaker
+  //   available: true,
+  // },
 
   // Groq models (Fastest and extremely cheap)
   // Groq is known for speed + lowest prices among big model hosts.
@@ -95,81 +95,81 @@ export const AVAILABLE_MODELS_CONFIG = {
     model: "google/gemma-2-27b-it", // Medium-low cost, decent reasoning
     available: true,
   },
-  "openrouter-claude": {
-    id: 15,
-    provider: "openrouter",
-    model: "anthropic/claude-3.5-sonnet", // High cost (Claude models are premium)
-    available: true,
-  },
+  // "openrouter-claude": {
+  //   id: 15,
+  //   provider: "openrouter",
+  //   model: "anthropic/claude-3.5-sonnet", // High cost (Claude models are premium)
+  //   available: true,
+  // },
 
   // Ollama models (free to run locally, but use your hardware)
   // Cost depends on your electricity bill, not tokens.
   // Uncomment when running local models.
   // Ollama models (local models - requires Ollama server running)
-  "ollama-llama3.1": {
-    id: 16,
-    provider: "ollama", //did ollama pull llama3.1
-    model: "llama3.1",
-    available: true,
-  },
-  "ollama-llama3.2": {
-    id: 17,
-    provider: "ollama",
-    model: "llama3.2",
-    available: true,
-  },
-  "ollama-llama3": {
-    id: 18,
-    provider: "ollama",
-    model: "llama3",
-    available: true,
-  },
-  "ollama-mistral": {
-    id: 19,
-    provider: "ollama",
-    model: "mistral",
-    available: true,
-  },
-  "ollama-mixtral": {
-    id: 20,
-    provider: "ollama",
-    model: "mixtral",
-    available: true,
-  },
-  "ollama-codellama": {
-    id: 21,
-    provider: "ollama",
-    model: "codellama",
-    available: true,
-  },
+  // "ollama-llama3.1": {
+  //   id: 16,
+  //   provider: "ollama", //did ollama pull llama3.1
+  //   model: "llama3.1",
+  //   available: true,
+  // },
+  // "ollama-llama3.2": {
+  //   id: 17,
+  //   provider: "ollama",
+  //   model: "llama3.2",
+  //   available: true,
+  // },
+  // "ollama-llama3": {
+  //   id: 18,
+  //   provider: "ollama",
+  //   model: "llama3",
+  //   available: true,
+  // },
+  // "ollama-mistral": {
+  //   id: 19,
+  //   provider: "ollama",
+  //   model: "mistral",
+  //   available: true,
+  // },
+  // "ollama-mixtral": {
+  //   id: 20,
+  //   provider: "ollama",
+  //   model: "mixtral",
+  //   available: true,
+  // },
+  // "ollama-codellama": {
+  //   id: 21,
+  //   provider: "ollama",
+  //   model: "codellama",
+  //   available: true,
+  // },
   "ollama-gemma3": {
     id: 22,
     provider: "ollama",
     model: "gemma3",
     available: true,
   },
-  "ollama-phi3": {
-    id: 23,
-    provider: "ollama",
-    model: "phi3",
-    available: true,
-  },
-  "ollama-gemma2": {
-    id: 24,
-    provider: "ollama",
-    model: "gemma2",
-    available: true,
-  },
-  "ollama-qwen2": {
-    id: 25,
-    provider: "ollama",
-    model: "qwen2",
-    available: true,
-  },
-  "ollama-neural-chat": {
-    id: 26,
-    provider: "ollama",
-    model: "neural-chat",
-    available: true,
-  },
+  // "ollama-phi3": {
+  //   id: 23,
+  //   provider: "ollama",
+  //   model: "phi3",
+  //   available: true,
+  // },
+  // "ollama-gemma2": {
+  //   id: 24,
+  //   provider: "ollama",
+  //   model: "gemma2",
+  //   available: true,
+  // },
+  // "ollama-qwen2": {
+  //   id: 25,
+  //   provider: "ollama",
+  //   model: "qwen2",
+  //   available: true,
+  // },
+  // "ollama-neural-chat": {
+  //   id: 26,
+  //   provider: "ollama",
+  //   model: "neural-chat",
+  //   available: true,
+  // },
 };
